@@ -87,9 +87,12 @@ angular.module('starter', ['ionic'])
 .controller('HomeCtrl', function($scope) {
   console.log("Entrando en la home");
 })
-.controller('CocheCtrl', function($scope) {
-  console.log("Entrando a coche");
-})
+.controller('CocheCtrl', ['$scope', '$http', '$state', function($scope, $http, $state) {
+  $http.get('js/data.json')
+  .success(function(data) {
+    console.debug(data);
+  });
+}])
 .controller('ComunidadCtrl', function($scope) {
   console.log("Entrando a comunidad");
 })
