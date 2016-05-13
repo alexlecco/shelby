@@ -41,5 +41,41 @@ angular.module('starter', ['ionic'])
     }
   })
 
+  .state('tab.coche', {
+    url: '/coche',
+    views: {
+      'tab-coche': {
+        templateUrl: 'templates/coche.html',
+      }
+    }
+  })
+
+  .state('tab.comunidad', {
+    url: '/comunidad',
+    views: {
+      'tab-comunidad': {
+        templateUrl: 'templates/comunidad.html',
+      }
+    }
+  })
+
+  .state('tab.datos', {
+    url: '/datos',
+    views: {
+      'tab-datos': {
+        templateUrl: 'templates/datos.html',
+      }
+    }
+  })
+
+  .state('tab.info', {
+    url: '/info',
+    views: {
+      'info': {
+        templateUrl: 'templates/info.html'
+      }
+    }
+  })
+
   $urlRouterProvider.otherwise('/tab/home');
 })
