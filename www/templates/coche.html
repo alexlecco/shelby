@@ -1,9 +1,11 @@
 <ion-view view-title="Información técnica">
 	<ion-content class="padding">
 		<div class="list">
-			<a class="item item-icon-left item-thumbnail-left item-text-wrap">
-				<img src="img/motor.jpg">
-				<p>The Parsee's narrative only confirmed Mr. Fogg and his companions in their generous design.</p>
+			<a class="item item-icon-left item-thumbnail-left item-text-wrap"
+				 ng-repeat="item in detalles">
+				<img src="img/{{ item.foto }}">
+				<h3> {{ item.titulo }} </h3>
+				<p> {{ item.descripcion }} </p>
 			</a>
 		</div>
   </ion-content>

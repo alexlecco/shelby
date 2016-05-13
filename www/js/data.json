@@ -1,37 +1,37 @@
 {
   "detalles": [
     {
-      "foto": "Shelby_1.png",
+      "foto": "camaro_1.jpg",
       "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_2.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_2.jpg",
+      "titulo": "Mecánica",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_3.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_3.jpg",
+      "titulo": "Ruedas",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_4.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_4.jpg",
+      "titulo": "Diseño",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_5.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_5.jpg",
+      "titulo": "Refrigeración",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_6.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_6.jpg",
+      "titulo": "Motor",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_7.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_7.jpg",
+      "titulo": "Mandos",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }, {
-      "foto": "Shelby_8.png",
-      "titulo": "Interior",
-      "descripción": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "foto": "camaro_8.jpg",
+      "titulo": "Carrocería",
+      "descripcion": "In three days we were on the march toward Zodanga, one hundred thousand strong."
     }
   ],
   "usuarios": [
