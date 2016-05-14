@@ -2,10 +2,13 @@
 	<ion-content class="padding">
 		<div class="list">
 			<a class="item item-icon-left item-thumbnail-left item-text-wrap"
-				 ng-repeat="item in detalles">
+				 ng-repeat="item in detalles"
+				 ng-click="toggleDescripcion(item)">
 				<img src="img/{{ item.foto }}">
 				<h3> {{ item.titulo }} </h3>
-				<p> {{ item.descripcion }} </p>
+				<p ng-show="!item.resumido"> {{ item.descripcion | limitTo: 65 }}
+						{{ item.descripcion.length > 65 ? '&hellip;':'' }} </p>
+				<p ng-show="item.resumido"> {{ item.descripcion }} </p>
 			</a>
 		</div>
   </ion-content>

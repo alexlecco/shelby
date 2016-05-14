@@ -87,16 +87,23 @@ angular.module('starter', ['ionic'])
 .controller('HomeCtrl', function($scope) {
   console.log("Entrando en la home");
 })
+
 .controller('CocheCtrl', ['$scope', '$http', '$state', function($scope, $http, $state) {
   $http.get('js/data.json')
   .success(function(data) {
     //console.debug(data.detalles);
-    $scope.detalles = data.detalles; 
+    $scope.detalles = data.detalles;
   });
+
+  $scope.toggleDescripcion = function(item) {
+    item.resumido = !item.resumido;
+  }
 }])
+
 .controller('ComunidadCtrl', function($scope) {
   console.log("Entrando a comunidad");
 })
+
 .controller('DatosCtrl', function($scope) {
   console.log("Entrando a datos");
 })
