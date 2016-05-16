@@ -42,7 +42,8 @@
       "telefono": "3815968795",
       "en_activo": true,
       "foto": "foto1.png",
-      "uso": 3
+      "uso": 3,
+      "id": 0
     }, {
       "nombre": "Juan Carlos",
       "apellido": "Olivera",
@@ -50,7 +51,8 @@
       "telefono": "3814562156",
       "en_activo": true,
       "foto": "foto2.png",
-      "uso": 3
+      "uso": 3,
+      "id": 1
     }, {
       "nombre": "Carla",
       "apellido": "Vellicce",
@@ -58,7 +60,8 @@
       "telefono": "3813564895",
       "en_activo": true,
       "foto": "foto3.png",
-      "uso": 3
+      "uso": 3,
+      "id": 2
     }, {
       "nombre": "Carlos",
       "apellido": "Fenoglio",
@@ -66,7 +69,8 @@
       "telefono": "3815698545",
       "en_activo": true,
       "foto": "foto4.png",
-      "uso": 3
+      "uso": 3,
+      "id": 3
     }
   ]
 }

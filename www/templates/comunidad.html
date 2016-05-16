@@ -10,7 +10,8 @@
 	<ion-content class="has-subheader">
 		<ion-list>
 		  <ion-item class="item-avatar item-icon-right"
-								ng-repeat="item in usuarios | filter: query">
+								ng-repeat="item in usuarios | filter: query"
+								href="#/tab/user/{{ item.id }}">
 				<img src="img/{{ item.foto }}"/>
 				<h2> {{ item.nombre }} {{ item.apellido }} </h2>
 				<p> {{ item.telefono }} </p>
