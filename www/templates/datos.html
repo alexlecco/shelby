@@ -1,45 +1,46 @@
 <ion-view view-title="Mis datos">
 	<ion-content class="padding">
-		<div class="list">
 
-			<label class="item item-input item-stacked-label">
-				<span class="input-label"> Tu nombre </span>
-				<input type="text">
-			</label>
-
-			<label class="item item-input item-stacked-label">
-				<span class="input-label"> Tu apellido </span>
-				<input type="text">
-			</label>
-
-			<div class="item item-input-inset">
-				<label class="item item-input-wrapper">
-					<input type="text" placeholder="Tu posición" ng-model="posicion">
+		<form ng-submit="sendForm()">
+			<div class="list">
+				<label class="item item-input item-stacked-label">
+					<span class="input-label"> Tu nombre </span>
+					<input type="text" ng-model="nombre">
 				</label>
-				<button class=" button button-small" ng-click="getPosicion()"> Posición </button>
+
+				<label class="item item-input item-stacked-label">
+					<span class="input-label"> Tu apellido </span>
+					<input type="text" ng-model="apellido">
+				</label>
+
+				<div class="item item-input-inset">
+					<label class="item item-input-wrapper">
+						<input type="text" placeholder="Tu posición" ng-model="posicion">
+					</label>
+					<button class=" button button-small" ng-click="getPosicion()"> Posición </button>
+				</div>
+
+				<div class="item item-divider"> Datos del coche </div>
+
+				<div class="item item-checkbox checkbox-pos itive">
+					<label class="checkbox">
+						<input type="checkbox">
+					</label>
+					Usado
+				</div>
+
+				<div class="item item-toggle">
+					<label class="toggle toggle-positive">
+						<input type="checkbox">
+						<div class="track">
+							<div class="handle"></div>
+						</div>
+					</label>
+					En activo
+				</div>
 			</div>
 
-			<div class="item item-divider"> Datos del coche </div>
-
-			<div class="item item-checkbox checkbox-positive">
-				<label class="checkbox">
-					<input type="checkbox">
-				</label>
-				Usado
-			</div>
-
-			<div class="item item-toggle">
-				<label class="toggle toggle-positive">
-					<input type="checkbox">
-					<div class="track">
-						<div class="handle"></div>
-					</div>
-				</label>
-				En activo
-			</div>
-		</div>
-
-		<button class="button button-block button-positive"> Guardar </button>
-
+			<button class="button button-block button-positive" type="submit"> Guardar </button>
+		</form>
   </ion-content>
 </ion-view>

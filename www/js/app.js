@@ -135,4 +135,8 @@ angular.module('starter', ['ionic'])
       form.posicion = position.coords.latitude + " -- " + position.coords.longitude
     });
   }
+
+  $scope.sendForm = function() {
+    alert(this.nombre + " -- " + this.apellido);
+  }
 })
