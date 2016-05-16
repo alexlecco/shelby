@@ -1,0 +1,18 @@
+ionic start myApp tabs
+
+cd myApp
+export ANDROID_HOME=/home/lecco/Android/Sdk
+PATH=$PATH:/home/lecco/Android/Sdk/tools
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+ionic build android
+
+ionic serve
+
+android avd
+ionic emulate android
+
+cordova plugin add cordova-plugin-geolocation
+
+ionic resources --icon
+ionic resources --splash
