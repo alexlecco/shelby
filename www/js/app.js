@@ -95,9 +95,12 @@ angular.module('starter', ['ionic'])
     $scope.detalles = data.detalles;
     $scope.data = { showReorder: false };
   });
-
   $scope.toggleDescripcion = function(item) {
     item.resumido = !item.resumido;
+  }
+  $scope.moveItem = function(item, fromIndex, toIndex) {
+    $scope.detalles.splice(fromIndex, 1);
+    $scope.detalles.splice(toIndex, 0, item);
   }
 }])
 
