@@ -36,36 +36,36 @@
   ],
   "usuarios": [
     {
-      "nombre": "Robert",
-      "apellido": "Lopez Smith",
-      "edad": 65,
+      "nombre": "Alex",
+      "apellido": "Lecco",
+      "edad": 26,
       "telefono": "123456789",
       "en_activo": true,
-      "foto": "foto1.jpg",
+      "foto": "foto1.png",
       "uso": 3
     }, {
-      "nombre": "Robert",
-      "apellido": "Lopez Smith",
-      "edad": 65,
+      "nombre": "Juan Carlos",
+      "apellido": "Olivera",
+      "edad": 26,
       "telefono": "123456789",
       "en_activo": true,
-      "foto": "foto1.jpg",
+      "foto": "foto1.png",
       "uso": 3
     }, {
-      "nombre": "Robert",
-      "apellido": "Lopez Smith",
-      "edad": 65,
+      "nombre": "Carla",
+      "apellido": "Vellicce",
+      "edad": 25,
       "telefono": "123456789",
       "en_activo": true,
-      "foto": "foto1.jpg",
+      "foto": "foto1.png",
       "uso": 3
     }, {
-      "nombre": "Robert",
-      "apellido": "Lopez Smith",
-      "edad": 65,
+      "nombre": "Carlos",
+      "apellido": "Fenoglio",
+      "edad": 26,
       "telefono": "123456789",
       "en_activo": true,
-      "foto": "foto1.jpg",
+      "foto": "foto1.png",
       "uso": 3
     }
   ]
