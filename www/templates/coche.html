@@ -10,7 +10,8 @@
 		<ion-list class="list" show-reorder="data.showReorder">
 			<ion-item class="item-thumbnail-left item-text-wrap"
 							  ng-repeat="item in detalles"
-				 			  ng-click="toggleDescripcion(item)">
+				 			  ng-click="toggleDescripcion(item)"
+								ng-class="{ 'noresumido' : item.resumido }">
 				<img src="img/{{ item.foto }}">
 				<h3> {{ item.titulo }} </h3>
 				<p ng-show="!item.resumido"> {{ item.descripcion | limitTo: 65 }}
