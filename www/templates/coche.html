@@ -1,20 +1,24 @@
 <ion-view view-title="Información técnica">
 
 	<ion-nav-buttons side="secondary">
-		<button class="button button-icon ion-navicon"></button>
+		<button class="button button-icon ion-navicon"
+						ng-click="data.showReorder = !data.showReorder">
+		</button>
 	</ion-nav-buttons>
 
 	<ion-content class="padding">
-		<div class="list">
-			<a class="item item-icon-left item-thumbnail-left item-text-wrap"
-				 ng-repeat="item in detalles"
-				 ng-click="toggleDescripcion(item)">
+		<ion-list class="list" show-reorder="data.showReorder">
+			<ion-item class="item-thumbnail-left item-text-wrap"
+							  ng-repeat="item in detalles"
+				 			  ng-click="toggleDescripcion(item)">
 				<img src="img/{{ item.foto }}">
 				<h3> {{ item.titulo }} </h3>
 				<p ng-show="!item.resumido"> {{ item.descripcion | limitTo: 65 }}
 						{{ item.descripcion.length > 65 ? '&hellip;':'' }} </p>
 				<p ng-show="item.resumido"> {{ item.descripcion }} </p>
-			</a>
-		</div>
+				<ion-reorder-button class="ion-navicon">
+				</ion-reoder-button>
+			</ion-item>
+		</ion-list>
   </ion-content>
 </ion-view>

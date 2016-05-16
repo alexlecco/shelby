@@ -93,6 +93,7 @@ angular.module('starter', ['ionic'])
   .success(function(data) {
     //console.debug(data.detalles);
     $scope.detalles = data.detalles;
+    $scope.data = { showReorder: false };
   });
 
   $scope.toggleDescripcion = function(item) {
