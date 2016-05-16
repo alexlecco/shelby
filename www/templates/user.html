@@ -1,5 +1,12 @@
 <ion-view view-title="Datos">
-	<ion-content class="padding">
-		<h2> {{ data.nombre }} </h2>
+	<ion-content class="padding"
+							 ng-class="{ 'inactivo' : !data.en_activo }">
+		<div class="mi_contenedor">
+			<div class="img_rounded"> <img src="img/{{ data.foto }}"> </div>
+			<h2> {{ data.nombre }} {{ data.apellido }} </h2>
+			<p class="rotulo"> Edad: <span class="valor"> {{ data.edad }} </span> </p>
+			<p class="rotulo"> Teléfono: <span class="valor"> {{ data.telefono }} </span> </p>
+			<p class="rotulo"> Años con el coche: <span class="valor"> {{ data.uso }} </span>  </p>
+		</div>
   </ion-content>
 </ion-view>
