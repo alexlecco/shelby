@@ -39,7 +39,7 @@
       "nombre": "Alex",
       "apellido": "Lecco",
       "edad": 26,
-      "telefono": "123456789",
+      "telefono": "3815968795",
       "en_activo": true,
       "foto": "foto1.png",
       "uso": 3
@@ -47,25 +47,25 @@
       "nombre": "Juan Carlos",
       "apellido": "Olivera",
       "edad": 26,
-      "telefono": "123456789",
+      "telefono": "3814562156",
       "en_activo": true,
-      "foto": "foto1.png",
+      "foto": "foto2.png",
       "uso": 3
     }, {
       "nombre": "Carla",
       "apellido": "Vellicce",
       "edad": 25,
-      "telefono": "123456789",
+      "telefono": "3813564895",
       "en_activo": true,
-      "foto": "foto1.png",
+      "foto": "foto3.png",
       "uso": 3
     }, {
       "nombre": "Carlos",
       "apellido": "Fenoglio",
       "edad": 26,
-      "telefono": "123456789",
+      "telefono": "3815698545",
       "en_activo": true,
-      "foto": "foto1.png",
+      "foto": "foto4.png",
       "uso": 3
     }
   ]

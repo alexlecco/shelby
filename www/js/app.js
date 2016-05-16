@@ -104,9 +104,12 @@ angular.module('starter', ['ionic'])
   }
 }])
 
-.controller('ComunidadCtrl', function($scope) {
-  console.log("Entrando a comunidad");
-})
+.controller('ComunidadCtrl', ['$scope', '$http', '$state', function($scope, $http, $state) {
+  $http.get('js/data.json')
+  .success(function(data) {
+    $scope.usuarios = data.usuarios;
+  });
+}])
 
 .controller('DatosCtrl', function($scope) {
   console.log("Entrando a datos");
