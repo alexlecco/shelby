@@ -1,11 +1,6 @@
 ionic start myApp tabs
 
 cd myApp
-export ANDROID_HOME=/home/lecco/Android/Sdk
-PATH=$PATH:/home/lecco/Android/Sdk/tools
-export JAVA_HOME=/usr/lib/jvm/java-8-oracle
-
-ionic build android
 
 ionic serve
 
@@ -16,3 +11,18 @@ cordova plugin add cordova-plugin-geolocation
 
 ionic resources --icon
 ionic resources --splash
+
+export ANDROID_HOME=/home/lecco/Android/Sdk
+export PATH=$PATH:/home/lecco/Android/Sdk/tools
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+ionic build android
+
+cordova --release android
+
+cd /usr/lib/jvm/java-8-oracle/bin/
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore /home/lecco/Dropbox/Workspace/ionic/Shelby/platforms/android/build/outputs/apk/my-release-key.keystore /home/lecco/Dropbox/Workspace/ionic/Shelby/platforms/android/build/outputs/apk/android-release-unsigned.apk alias_name
+
+cd /home/lecco/Android/Sdk/build-tools/23.0.1/
+./zipalign -v 4 /home/lecco/Dropbox/Workspace/ionic/Shelby/platforms/android/build/outputs/apk/android-release-unsigned.apk /home/lecco/Dropbox/Workspace/ionic/Shelby/platforms/android/build/outputs/apk/Shelby.apk
