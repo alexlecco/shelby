@@ -23,7 +23,11 @@ angular.module('starter', ['ionic'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+
+  $ionicConfigProvider.tabs.position("bottom");
+  $ionicConfigProvider.navBar.alignTitle("center");
+
   $stateProvider
 
   .state('tab', {
